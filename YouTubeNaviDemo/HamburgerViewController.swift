@@ -57,9 +57,10 @@ class HamburgerViewController: UIViewController {
         
         //begins
         if sender.state == UIGestureRecognizerState.began {
+        }
             
         //changes happen here
-        } else if sender.state == UIGestureRecognizerState.changed {
+        else if sender.state == UIGestureRecognizerState.changed {
 
             if translation_x > 0 {
                 feedView.center.x = feedViewOriginalCenter.x + translation_x
@@ -68,6 +69,7 @@ class HamburgerViewController: UIViewController {
             else if translation_x < 0 && feedView.center.x > feedViewOriginalCenter.x {
                 feedView.center.x = feedViewOriginalCenter.x + 290 + translation_x
             }
+            menuView.transform = CGAffineTransform(scaleX: 1, y: 0.95)
 
             
         }
