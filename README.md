@@ -1,6 +1,6 @@
 # youtubeLab-codepath
 
-The menu scaling in step 5 doesn't work. Everything else does. Here is the imgur video:
+I got the menu scaling effect sort of working - it's kind of janky though. Here is the imgur video:
 
 http://i.imgur.com/s55mam9.gif
 
