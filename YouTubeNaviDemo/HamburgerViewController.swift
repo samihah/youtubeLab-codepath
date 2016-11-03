@@ -69,6 +69,7 @@ class HamburgerViewController: UIViewController {
             else if translation_x < 0 && feedView.center.x > feedViewOriginalCenter.x {
                 feedView.center.x = feedViewOriginalCenter.x + 290 + translation_x
             }
+            //this is the start of the thing that's sort of janky
             menuView.transform = CGAffineTransform(scaleX: 1, y: 0.95)
 
             
@@ -78,7 +79,7 @@ class HamburgerViewController: UIViewController {
             if velocity_x > 0 {
                 UIView.animate(withDuration: 0.3, animations: { () -> Void in
                     self.feedView.center = CGPoint(x: self.feedViewOriginalCenter.x + 290, y: self.feedViewOriginalCenter.y)
-                    //this shit doesn't work
+                    //this barely works
                     self.menuView.transform = CGAffineTransform(scaleX: 1, y: 1)
                 })
             }
@@ -86,7 +87,7 @@ class HamburgerViewController: UIViewController {
                 UIView.animate(withDuration: 0.3, animations: { () -> Void in
                     self.feedView.center = CGPoint(x: self.feedViewOriginalCenter.x, y: self.feedViewOriginalCenter.y)
                     
-                    //this doesn't work either
+                    //this also barely works
                     self.menuView.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
                 })
             }
