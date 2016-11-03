@@ -2,7 +2,7 @@
 
 The menu scaling in step 5 doesn't work. Everything else does. Here is the imgur video:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/KGEad"><a href="//imgur.com/KGEad"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+http://i.imgur.com/s55mam9.gif
 
 
 Setup:
